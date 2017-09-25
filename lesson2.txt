@@ -1,0 +1,5 @@
+Q8. What happens when you initialize a repository? Why do you need to do it?
+A: When we initialize a repository, the directory turns into a Git directory, which means that now we can save different versions of our files in the repository through the version-control feature of Git, by committed at various point in the file as and when required. 
+
+Q9. How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: Staging area is where the files go before we commit. A file in the staging area, still remains in the working directory. Its benefit is that, if we happen to change our mind and think of removing any file from the staging area, then we can do so using the git reset command. Whereas, if there was no staging area and if we would commit directly then, we would not be able to remove any file later. 
