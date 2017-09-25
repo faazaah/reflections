@@ -4,8 +4,12 @@ A: Using diff command in MAC and Linux, or using FC command on Windows, is reall
 
 Q2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 A: This feature enables us to view the different versions of a file over time, compare and find differences between the two. This also helps to restore a particular version of a file if required. 
+
 Q3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
 A: Both scenarios have its pros and cons. 
 In case of Google Docs where versions are saved automatically, a con here is that, we could have more committed versions of a file that required i.e. versions with little or no difference between them. Similarly we could have lesser committed versions of a file than required, since one version may reflect too many changes. Pros of Google docs is that we would have to worry about committed after changes, or in case we happen to forget to commit a version, this would be done automatically instead.
 In case of Git, where we need to commit manually, seems like a good idea, since we can decide what changes are logically different from others, and commit versions accordingly. A con is that, it could be a problem when we forget to commit a change. Also, being unable to decide as to which is a good time to commit a change, and then create commits too early or too late could lead not so clear versions of the file. 
+
+
+
 
