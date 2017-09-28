@@ -3,3 +3,7 @@ A: When we initialize a repository, the directory turns into a Git directory, wh
 
 Q9. How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: Staging area is where the files go before we commit. A file in the staging area, still remains in the working directory. Its benefit is that, if we happen to change our mind and think of removing any file from the staging area, then we can do so using the git reset command. Whereas, if there was no staging area and if we would commit directly then, we would not be able to remove any file later. 
+
+Q10. How can you use the staging area to make sure you have one commit per logical change?
+A: We can compare the difference between the staging area and the most recent commit to make sure that we want to commit the change, by using the command (git diff –staged). This way we can make sure that we have one commit per logical change. 
+

@@ -1,0 +1,5 @@
+Q10. How can you use the staging area to make sure you have one commit per logic?
+A: We can compare the difference between the staging area and recent commit to make sure that we want to commit the change, by using the command (git diff –staged). This way we can make sure we have one commit per logic.
+ 
+Q11. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Branches are really helpful. If we want to for example in a situation where we want to make little changes to our file but not a major change that we would want to commit in our master file, something like a different working version of the file, or a different language of the same file, in that we could use branches, thereby keeping our history organized, and at the same time, not altering the master file. This also enables us to switch between the different versions of our file with ease. When working on a new feature or fixing a bug, branches enable context switching, and also helps to compartmentalize the work. It also helps to keep the work organized. 
