@@ -14,3 +14,6 @@ Git an dGithub like other version control systems make it easier to share and co
 Especially when there are conflicts and different people are working on the same version a file, then these provide an excellent platform. 
 Whereas on the other hand, a traditional method of manually sharing files would be fine for someone who is not used to using a version control system, but would cause lot of confusion in case of conflicts.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+It is better to have a separate branch when we want to make changes that we are not sure of or if we need feedback on those changes. 
+On other instances when we are sure that we want to go ahead with a certain change then we could more easily do that on master itself. 
