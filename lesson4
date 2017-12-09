@@ -8,3 +8,9 @@ That might create confusion. Therefore it is  a better idea to rather complete t
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It helps us to work on the branch while having a local copy of it and also to merge and commit the changes locally before you can push it. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Git an dGithub like other version control systems make it easier to share and collaborate work. 
+Especially when there are conflicts and different people are working on the same version a file, then these provide an excellent platform. 
+Whereas on the other hand, a traditional method of manually sharing files would be fine for someone who is not used to using a version control system, but would cause lot of confusion in case of conflicts.
+
