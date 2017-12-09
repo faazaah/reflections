@@ -1,6 +1,10 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 When I want to make the work public, I would use a remote repository, and until then keep it local.
+
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If Git automatically updates repository, then in a case where you are working on a particular branch or file, it would get public maybe before you are done with the work. 
 That might create confusion. Therefore it is  a better idea to rather complete the file and commit and then manually update it on github to make it public.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It helps us to work on the branch while having a local copy of it and also to merge and commit the changes locally before you can push it. 
